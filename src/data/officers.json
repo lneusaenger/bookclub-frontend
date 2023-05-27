@@ -1,0 +1,74 @@
+[
+    {
+        "First": "Catherine",
+        "Last": "Flanagan",
+        "Title": "President",
+        "Bio": "Beyond reading voraciously, Catherine is on the fencing team, studies public policy and psychology, and loves going for aimless walks across campus.",
+        "Goodreads": "https://www.goodreads.com/user/show/134756324-catherine-flanagan",
+        "FavPath": "https://openlibrary.org/people/dukeamateursbookclub/lists/OL223976L/editions.json",
+        "Reviews": [
+            "'The Road' is a post-apocalyptic novel written by Cormac McCarthy that depicts a depraved and desolate world revolving around a father and his son who have conflicting moral compasses in the face of destitution. It is a prime text for evaluating the moral terms people use to define “humane” as products of civilization, as humanity is threatened both in terms of extinction and as a moral entity.",
+            "\"Everything is only for a day, both that which remembers and that which is remembered. Observe constantly that all things take place by change and accustomed thyself to consider that the nature of the universe loves nothing so much as to change things which are and to make new things like them. For everything that exists is in a manner the seed of that which will be.\"",
+            "Some of the most beautiful writing I have encountered paired with an insidious distorted narrator. Maybe avoid reading this in public!",
+            "\"A great poet, a really great poet, is the most unpoetical of all creatures. But inferior poets are absolutely fascinating. The worse their rhymes are, the more picturesque they look. The mere fact of having published a book of second-rate sonnets makes a man quite irresistible. He lives the poetry that he cannot write. The others write the poetry that they dare not realize.\""
+        ]
+    },
+    {
+        "First": "Nicole",
+        "Last": "Errera",
+        "Title": "Slightly less cool President",
+        "Bio": "Nicole is a sophomore from California currently studying Computer Science and Math. When she's not reading or fulfilling her book club duties she can usually be found somewhere outdoors.",
+        "Goodreads": "https://www.goodreads.com/nmerre",
+        "FavPath": "https://openlibrary.org/people/dukeamateursbookclub/lists/OL224085L/editions.json",
+        "Reviews": [
+            "Written with a deep understanding of the messiness and fluidity of human nature.",
+            "The real story is interspersed between a lot of drinking and bull fighting. Very subtle writing style.",
+            "Science fiction's take on The Jungle Book! Might leave you with a fresh perspective on 21st century social norms.",
+            "Extremely well-paced. Explores the ways in which we shape one another's lives.",
+            "Overflowing with life and love in so many different forms."
+        ]
+    },
+    {
+        "First": "Haylee",
+        "Last": "Feist",
+        "Title": "Publicity & Membership",
+        "Bio": "Haylee is a sophomore from Arlington, Virginia studying Public Policy and Psychology with a minor in Visual Arts. She loves rollerskating, painting, and reading in her free time.",
+        "Goodreads": "https://www.goodreads.com/user/show/71915956-haylee-feist",
+        "FavPath": "https://openlibrary.org/people/dukeamateursbookclub/lists/OL223971L/editions.json",
+        "Reviews": [
+            "Think time travel meets romance meets mad scientist.",
+            "Read it before you call me basic.",
+            "This book makes me want to run away and live in the woods every time I read it."
+        ]
+    },
+    {
+        "First": "Ezra",
+        "Last": "Bader",
+        "Title": "Secretary",
+        "Bio": "Ezra is a second-year from New York studying Physics with a minor in Math. When not doing problem sets, he enjoys drawing, reading, and sitting on the ground.",
+        "Goodreads": "https://www.goodreads.com/user/show/77933026-ezra-bader",
+        "FavPath": "https://openlibrary.org/people/dukeamateursbookclub/lists/OL224083L/editions.json",
+        "Reviews": [
+            "Steinbeck at his least boring! A timeless story about good and evil. No lengthy descriptions of turtles crawling along dusty roads.",
+            "The best high fantasy written by a living author. Intricate, non-gimmicky world building and a character-driven plot. All three books in the trilogy are page-turners.",
+            "A young man comes to terms with love, longing, and deserving in the real world. Set before masochism was socially acceptable.",
+            "My favorite new science fiction. Typically a good sci-fi book has at least one motivating \"big idea.\" This trilogy has dozens. Good mix of fiction; hard sci-fi and real physics concepts; and artistic liberty. Doesn't require significant suspension of disbelief.",
+            "One of the most incredibly creative stories I've read."
+        ]
+    },
+    {
+        "First": "Lily",
+        "Last": "Neusaenger",
+        "Title": "Technology Chair",
+        "Bio": "Lily is from Orlando, Florida, and studies CS and creative writing. She loves reading extremely in-depth descriptions of people eating brand-name food.",
+        "Goodreads": "https://www.goodreads.com/1ily",
+        "FavPath": "https://openlibrary.org/people/dukeamateursbookclub/lists/OL223970L/editions.json",
+        "Reviews": [
+            "A retelling of a famous Greek myth, and one of the most heartbreaking stories I've every read. If you have a heart, you will cry while reading this book.",
+            "Angry, passionate, obsessed women are my favorite main characters. Carrie Soto and her journey as a tennis professional is inspiring, exciting, and touching. Her story is a testament to the endurance of the human spirit.",
+            "I read this book when I was in third grade, and it propelled me into my love affair with books. Piper McCloud is an odd litle girl with strange powers, alienated from normalcy, before she is brought to a school of children with powers like hers. Conrad, a boy in this book with superintelligence, was my first book crush.",
+            "This is a book about love, black holes, the relativity of time, the strength and descructiveness of our beliefs, and what it means to truly be human. I will never recover from this series.",
+            "A dark, creepy retelling of Peter Pan. Spoiler: Peter isn't the good guy in this. This book made me cry (like many others) and took me by complete surprise."
+        ]
+    }
+]
