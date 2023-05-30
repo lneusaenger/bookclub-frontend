@@ -5,6 +5,7 @@ import { useLoansContext } from "../hooks/useLoansContext";
 import { useAuthContext } from "../hooks/useAuthContext";
 import { useLocation } from "react-router";
 import { useState } from "react";
+import { getProxyURL } from "../helpers/proxy";
 
 const {Meta} = Card;
 
@@ -26,7 +27,7 @@ function BookSearchCard(props) {
 
   const addBook = async () => {
     setError(null);
-    const response = await fetch('/api/books', {
+    const response = await fetch(getProxyURL() + '/api/books', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -52,7 +53,7 @@ function BookSearchCard(props) {
 
   const addLoan = async() => {
     // e.preventDefault();
-    const response = await fetch('/api/bookLoans', {
+    const response = await fetch(getProxyURL() + '/api/bookLoans', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

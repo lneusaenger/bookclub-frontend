@@ -5,6 +5,7 @@ import { useReviewsContext } from "../hooks/useReviewsContext";
 import { useEffect } from "react";
 import { useAuthContext } from "../hooks/useAuthContext";
 import { CloseButton } from "react-bootstrap";
+import { getProxyURL } from "../helpers/proxy";
 
 export default function BookDetailCard(props) {
     const [showReadForm, setShowReadForm] = useState(false);
@@ -17,7 +18,7 @@ export default function BookDetailCard(props) {
   
     useEffect(() => {
       const fetchReviews = async () => {
-        const response = await fetch(`/api/books/reviews/` + props.bookID);
+        const response = await fetch(getProxyURL() + `/api/books/reviews/` + props.bookID);
         const json = await response.json();
   
         if (response.ok) {

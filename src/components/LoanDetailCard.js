@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import { useEffect } from "react";
 import { CloseButton } from "react-bootstrap";
 import { useAuthContext } from "../hooks/useAuthContext";
+import { getProxyURL } from "../helpers/proxy";
 
 export default function LoanDetailCard(props) {
     const [name, setName] = useState('Please sign in first');
@@ -14,7 +15,7 @@ export default function LoanDetailCard(props) {
           return; // If user.token is null, exit the function
         }
     
-        const response = await fetch('/api/user/' + props.userID, {
+        const response = await fetch(getProxyURL() + '/api/user/' + props.userID, {
           headers: {
             'Authorization': `Bearer ${user.token}`
           }

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useReviewsContext } from '../hooks/useReviewsContext';
 import { useAuthContext } from '../hooks/useAuthContext';
+import { getProxyURL } from '../helpers/proxy';
 
 
 export default function ReadForm(props) {
@@ -16,7 +17,7 @@ export default function ReadForm(props) {
 
     const addRead = async (readData) => {
     const { id, finished, name, review, rating } = readData;
-    const response = await fetch('/api/books/' + id, {
+    const response = await fetch(getProxyURL() + '/api/books/' + id, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',

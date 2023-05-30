@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from 'antd';
 import { useAuthContext } from "../hooks/useAuthContext";
+import { getProxyURL } from "../helpers/proxy";
 
 const {Meta} = Card;
 
@@ -8,7 +9,7 @@ function MonthShowCard(props) {
   const {user} = useAuthContext();
 
   const handleDelete = async () => {
-    const response = await fetch('/api/month/' + props.bookKey, {
+    const response = await fetch(getProxyURL() + '/api/month/' + props.bookKey, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${user.token}`

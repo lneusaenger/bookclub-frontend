@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import MonthDetailCard from '../components/MonthDetailCard';
 import MonthShowCard from '../components/MonthShowCard';
+import { getProxyURL } from '../helpers/proxy';
 
 
 const HomePage = () => {
@@ -14,7 +15,7 @@ const HomePage = () => {
 
   useEffect(() => {
     const fetchBooks = async () => {
-      const response = await fetch('/api/month')
+      const response = await fetch(getProxyURL() + '/api/month')
       const json = await response.json()
 
       if (response.ok) {

@@ -3,6 +3,7 @@ import { Card } from 'antd';
 import { useLoansContext } from "../hooks/useLoansContext";
 import { useAuthContext } from "../hooks/useAuthContext";
 import { useState } from "react";
+import { getProxyURL } from "../helpers/proxy";
 
 const {Meta} = Card;
 
@@ -12,7 +13,7 @@ function LoanShowCard(props) {
   const [availability, setAvailability] = useState(props.availability)
 
   const handleDelete = async () => {
-    const response = await fetch('/api/bookLoans/' + props.loanKey, {
+    const response = await fetch(getProxyURL() + '/api/bookLoans/' + props.loanKey, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${user.token}`
@@ -34,7 +35,7 @@ function LoanShowCard(props) {
 
   const changeAvailability = async () => {
     const id = props.loanKey;
-    const response = await fetch('/api/bookLoans', {
+    const response = await fetch(getProxyURL() + '/api/bookLoans', {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',

@@ -25,7 +25,7 @@ function BookShowCard(props) {
   };
 
   const handleAddMonth = async() => {
-    const response = await fetch('/api/month', {
+    const response = await fetch(getProxyURL() + '/api/month', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

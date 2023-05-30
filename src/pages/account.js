@@ -6,6 +6,7 @@ import LoanShowCard from '../components/LoanShowCard';
 import LoanDetailCard from '../components/LoanDetailCard';
 import { useLoansContext } from '../hooks/useLoansContext';
 import { useAuthContext } from '../hooks/useAuthContext';
+import { getProxyURL } from '../helpers/proxy';
 
 export default function Account() {
   const [showSearch, setShowSearch] = useState(false);
@@ -16,7 +17,7 @@ export default function Account() {
 
   useEffect(() => {
     const fetchLoans = async () => {
-      const response = await fetch('/api/user/loans/' + user.user._id)
+      const response = await fetch(getProxyURL() + '/api/user/loans/' + user.user._id)
       const json = await response.json()
 
       if (response.ok) {
