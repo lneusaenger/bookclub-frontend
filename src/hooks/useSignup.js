@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useAuthContext } from './useAuthContext';
+import { getProxyURL } from '../helpers/proxy';
 
 export const useSignup = () => {
   const [error, setError] = useState(null);
@@ -16,7 +17,7 @@ export const useSignup = () => {
     setError(null)
 
 
-    const response = await fetch('/api/user/signup', {
+    const response = await fetch(getProxyURL() + '/api/user/signup', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({ email, password, name})

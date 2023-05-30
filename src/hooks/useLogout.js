@@ -1,4 +1,5 @@
 import { useAuthContext } from './useAuthContext'
+import { getProxyURL } from '../helpers/proxy'
 
 export const useLogout = () => {
   const { dispatch } = useAuthContext()
